@@ -21,8 +21,8 @@
 }
 
 .animated.hinge {
-  -webkit-animation-duration: 2s;
-  animation-duration: 2s;
+  -webkit-animation-duration: 4s;
+  animation-duration: 4s;
 }
 
 .animated.flipOutX,
@@ -1618,12 +1618,12 @@
 
 @-webkit-keyframes fadeOutLeftBig {
   from {
-    opacity: 1;
+    opacity: 2;
   }
 
   to {
     opacity: 0;
-    -webkit-transform: translate3d(-2000px, 0, 0);
+    -webkit-transform: translate3d(-3000px, 0, 0);
     transform: translate3d(-2000px, 0, 0);
   }
 }
